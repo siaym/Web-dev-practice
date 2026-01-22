@@ -1,0 +1,30 @@
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 15px;
+    
+}
+nav li:hover{
+    background-color: red;
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul {
+    text-align: center;
+}
+
+form .infos label{
+    display: block;
+    margin-top: 15px;
+     
+}
+ .infos{
+   width: 600px;
+    margin: 40px auto;
+    background-color: bisque;
+}
+main{
+    background-color: rgb(66, 66, 63);
+}
