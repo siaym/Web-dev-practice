@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container div{
+            border: 2px solid black;
+            height: 100px;
+            width: 200px;
+            font-size: 100px;
+            ;
+        }
+        .user1{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+        .user{
+            border: 3px solid red;
+            height: 100px;
+            width: 150px;
+            font-size: 2em;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        }
+        .people1{
+            display: flex;
+            gap: 5px;
+            justify-content: space-around;
+        }
+        .people{
+            border: 3px solid blue;
+            font-size: 2em;
+            color: azure;
+            background-color: black;
+        }
+        .man1{
+            display: flex;
+            justify-content: space-between; /*justoify content is connected with the display flex*/
+            flex-wrap: wrap;
+        }
+        .man{
+            border: 3px solid gray;
+            font-size: 5em;
+            background-color: bisque;}
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <div >1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    </div>
+    <!-- .div{user-$}*5 -->
+    <div class="user1">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+        <div class="user">user-4</div>
+        <div class="user">user-5</div>
+    </div>
+
+    <div class="people1">
+        <div class="people">people-1</div>
+        <div class="people">people-2</div>
+        <div class="people">people-3</div>
+        <div class="people">people-4</div>
+        <div class="people">people-5</div>
+        <div class="people">people-6</div>
+
+    </div>
+    <div class="man1">
+        <div class="man">man-1</div>
+        <div class="man">man-2</div>
+        <div class="man">man-3</div>
+        <div class="man">man-4</div>
+        <div class="man">man-5</div>
+        <div class="man">man-6</div>
+        <div class="man">man-7</div>
+        <div class="man">man-8</div>
+        <div class="man">man-9</div>
+        <div class="man">man-10</div>
+        <div class="man">man-11</div>
+        <div class="man">man-12</div>
+        <div class="man">man-13</div>
+        <div class="man">man-14</div>
+        <div class="man">man-15</div>
+    </div>
+</body>
+</html>
