@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFF8F3;
+    background: url("../images/developer.png"),url("../images/header_bg.png");
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+background-size: auto 100%;
+    padding-top: 50px;
+    
+}
+
+nav{
+    width: 65%;
+    max-width: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* siyam text as logo  */
+.logo h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+/* button color  */
+.color-orange{
+    color: #FD6E0A;
+}
+/* button contact me  */
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banner{
+    /* margin: auto; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    color: #474747;
+font-size: 45px;
+font-family: Open Sans;
+font-weight: 600;
+margin: 5px;
+}
+#banner .banner-content h1{
+    color: #181818;
+font-size: 85px;
+font-family: Open Sans;
+font-weight: 700;
+margin-bottom: 20px;
+}
+#banner .banner-content p{
+color: #757575;
+font-size: 18px;
+font-family: Open Sans;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+}
+#banner .banner-image{
+    max-width: 585px;
+    vertical-align: middle;
+}
