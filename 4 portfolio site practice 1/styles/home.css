@@ -11,9 +11,9 @@
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"),url("../images/header_bg.png");
-    background-position: top left,bottom right;
+    background-position: bottom left,bottom right;
     background-repeat: no-repeat;
-background-size: auto 100%,auto;
+background-size: auto 100%,auto 100%;
     padding-top: 50px;
     
 }
@@ -141,7 +141,7 @@ margin-bottom: 20px;
 .section-heading p{
     font-size: 18px;
     margin-bottom: 30px;
-    line-height: 30px;
+    line-height: 28px;
     color: #757575;
 }
 #skills{
@@ -162,6 +162,7 @@ margin-bottom: 20px;
 
 }
 .skills-box .skill-card{
+    
     padding: 30px;
     border: 1px solid red;
     max-width: 267px;
@@ -257,3 +258,4 @@ footer{
     width: 40px;
     filter: brightness(0) saturate(100%) invert(53%) sepia(90%) saturate(600%) hue-rotate(350deg);
 }
+
