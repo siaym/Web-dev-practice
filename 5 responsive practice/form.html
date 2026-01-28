@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .form-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border: 1px solid red; 
+            /* we must use a border for calculating the padding margin and gaping for the elements of the section */
+        height: 90vh; /*  we use this height and vh for moving the elements in that box */
+        }
+            .login-form{
+                display: flex;
+                /* justify-content: space-around; */
+                flex-direction: column;
+                width: 50%;
+                border: 2px solid red;
+                padding: 20px  ;
+            }
+            .login-form input   {
+                margin-top: 20px;
+            }  
+            .login-form h3{
+                text-align: center;
+            }     
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div><a href="">Home</a>
+        <a href="">profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a></div>
+        <a href="">login</a>
+    </nav>
+     <section class="form-container"> <!-- making section because to move whole login section because without that we have to move individual -->
+        <form class="login-form">
+        <h3> please login</h3>
+        <input type="email" placeholder="your email" required>
+        <input type="password" placeholder="your password" required >
+<input type="submit" placeholder="login">
+    </form>
+</section>
+</body>
+</html>
